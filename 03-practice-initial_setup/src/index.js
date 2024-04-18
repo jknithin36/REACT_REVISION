@@ -70,11 +70,12 @@ function Menu() {
   const numPizzas = pizzas.length;
   return (
     <main className="menu">
-      <h2>our menu</h2>
+      <h2>Our menu</h2>
 
       {numPizzas > 0 ? (
         <React.Fragment>
           <p>
+            {" "}
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Quisque
             id diam vel quam.
@@ -93,12 +94,11 @@ function Menu() {
 }
 
 function Pizza({ pizzaObj }) {
-  // if (pizzaObj.soldOut) return null;
   return (
     <li className={`pizza ${pizzaObj.soldOut ? "sold-out" : ""}`}>
       <img src={pizzaObj.photoName} alt={pizzaObj.name} />
       <div>
-        <h3>{pizzaObj.name}</h3>
+        <h3> {pizzaObj.name}</h3>
         <p>{pizzaObj.ingredients}</p>
         <span>{pizzaObj.soldOut ? "SOLD OUT" : pizzaObj.price}</span>
       </div>
@@ -107,13 +107,13 @@ function Pizza({ pizzaObj }) {
 }
 
 function Footer() {
-  const hour = new Date().getHours();
+  const timeNow = new Date().getHours();
+  console.log(timeNow);
   const openHour = 10;
   const closeHour = 22;
-  const isOpen = hour >= openHour && hour <= closeHour;
-  console.log(isOpen);
 
-  console.log(hour);
+  const isOpen = timeNow >= openHour && timeNow <= closeHour;
+  console.log(isOpen);
   return (
     <footer className="footer">
       {isOpen ? (
@@ -136,7 +136,6 @@ function Order({ closeHour }) {
     </div>
   );
 }
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
