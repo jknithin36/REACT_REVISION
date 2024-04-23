@@ -5,3 +5,5 @@ PROJECT_1 FINAL_PRODUCT
  <img src="./final_products/2nd prjoject.png" alt="My Image">
 
   <img src="./final_products/3rd Project.png" alt="3rd Projectç">
+
+credits: "https://github.com/jonasschmedtmann"
