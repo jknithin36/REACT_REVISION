@@ -35,6 +35,54 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
+    },
+    {
+      "cityName": "Torre de Juan Abad",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-05-27T13:44:45.648Z",
+      "notes": "ddd",
+      "position": {
+        "lat": "38.685509760012025",
+        "lng": "-3.2299804687500004"
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Negrilla de Palencia",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-05-27T13:50:38.503Z",
+      "notes": "dhjdjhjhd",
+      "position": {
+        "lat": "41.1290213474951",
+        "lng": "-5.625"
+      },
+      "id": 98443199
+    },
+    {
+      "cityName": "Oviedo",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-05-27T13:50:38.503Z",
+      "notes": "dhjdjhjhd",
+      "position": {
+        "lat": "43.32517767999296",
+        "lng": "-5.888671875"
+      },
+      "id": 98443200
+    },
+    {
+      "cityName": "Castro Caldelas",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-05-27T13:50:38.503Z",
+      "notes": "dhjdjhjhd",
+      "position": {
+        "lat": "42.374778361114195",
+        "lng": "-7.448730468750001"
+      },
+      "id": 98443201
     }
   ]
 }
